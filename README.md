@@ -19,41 +19,41 @@ Basics practices everyone should follow:
 
 1. What are we working on?
 
-- Assets: Customer health data, payment info, servers, mobile app.
-   
-- Business goal: Provide service safely, keep customers trust.
-   
-- Customer interactions: Mobile app, website, email.
+   - Assets: Customer health data, payment info, servers, mobile app.
 
-2. What can go wrong?
+   - Business goal: Provide service safely, keep customers trust.
 
-- Spoofing: Attacker logs in as user.
-   
-- Tampering: Data changed (fake health status).
-   
-- Information disclosure: Health data leaked.
-   
-- Denial of Service: App unavailable.
-   
-- Prioritized risk: Data leak (high impact).
+   - Customer interactions: Mobile app, website, email.
+
+3. What can go wrong?
+
+   - Spoofing: Attacker logs in as user.
+
+   - Tampering: Data changed (fake health status).
+
+   - Information disclosure: Health data leaked.
+
+   - Denial of Service: App unavailable.
+
+   - Prioritized risk: Data leak (high impact).
 
 3. What are we going to do about it?
 
-- Reduce attack surface.
-   
-- Strong login with MFA.
-   
-- Encrypt health data.
-   
-- Backups and insurance for worst cases.
+   - Reduce attack surface.
 
-4. Did we do a good enough job?
+   - Strong login with MFA.
 
-- Regular audits and penetration tests.
-   
-- Continuous monitoring.
-   
-- Update threat model after changes.
+   - Encrypt health data.
+
+   - Backups and insurance for worst cases.
+
+5. Did we do a good enough job?
+
+   - Regular audits and penetration tests.
+
+   - Continuous monitoring.
+
+   - Update threat model after changes.
 
 #### Sources 
 
